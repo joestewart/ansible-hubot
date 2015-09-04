@@ -187,3 +187,12 @@ hubot_external_scripts:
   # - hubot-rules
   # - hubot-google-translate
   # - hubot-youtube
+
+#############################################################################
+#
+# external__git_scripts: A list of additional Hubot scripts to checkout 
+# from git.
+#
+#############################################################################
+# hubot_external_git_scripts:
+#   - { name: hubot-jenkins-userauth, repo_url: "https://github.com/joestewart/hubot-jenkins-userauth.git" }
