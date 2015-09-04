@@ -33,7 +33,6 @@ hubot_all_dirs:
   - "{{ hubot_nvm_dir }}"
   - "/home/{{ hubot_admin }}/.npm"
 
-<<<<<<< HEAD
 #############################################################################
 #
 # hubot_admin:                User account that will run the bot; for
@@ -170,3 +169,21 @@ hubot_env:
 
    # Weather stuff
    # HUBOT_WUNDERGROUND_API_KEY: "FIXME" # Replace with Wunderground API key
+
+#############################################################################
+#
+# external_scripts: A list of additional Hubot scripts to use
+#
+#############################################################################
+
+hubot_external_scripts:
+  - hubot-redis-brain
+  - hubot-help
+  # - hubot-calculator
+  # - hubot-diagnostics
+  # - hubot-hipchat-emoticons
+  # - hubot-google-images
+  # - hubot-maps
+  # - hubot-rules
+  # - hubot-google-translate
+  # - hubot-youtube
